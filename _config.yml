@@ -2,9 +2,31 @@
 baseurl: "/my-first-blog"
 
 # 网站的主标题
-title: "Girls Coding Day"
+title: "Christy's Blog"
 # 网站副标题
-subTitle: "Girls Coding Day"
+subTitle: "Moments"
+
+# 个人昵称
+name: "Christy Leung"
+# 个人介绍副标题
+description: "Music never sleep. Music is the key."
+
+# 分页配置
+# 每页文章数量
+paginate: 7
 
 # 其它配置, 可忽略, 无需修改
 permalink: /:title/
+paginate_path: /page:nim/
+plugins:
+  - christyleung-paginate
+  
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+lazyimages: "disabled"
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
