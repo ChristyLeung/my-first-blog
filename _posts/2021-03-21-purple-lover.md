@@ -5,3 +5,6 @@ author: "Christy"
 avatar: "assets/images/authors/logo.jpg"
 image: "assets/images/purple_background.jpg"
 ---
+
+# 紫色控
+# Purple Lover
